@@ -1,1 +1,5 @@
 e_com_env
+brokart/customers/migrations
+brokart/orders/migrations
+brokart/products/migrations
+brokart/themes/migrations
