@@ -3,7 +3,7 @@ from customers.models import Customer
 from products.models import Product
 # Create your models here.
 
-#data model fro Order.
+#data model for Order.
 class Order(models.Model):
     LIVE=1
     DELETE=0
@@ -23,8 +23,8 @@ class Order(models.Model):
     created_at=models.DateTimeField(auto_now_add=True)
     updated_at=models.DateTimeField(auto_now=True)
 
-#model for ordered item.``
+#model for ordered item.
 class OrderedItem(models.Model):
-    product=models.ForeignKey(Product,on_delete=models.SET_NULL,related_name='added_carts',null=True)
+    product=models.ForeignKey(Product,related_name='added_carts',on_delete=models.SET_NULL,null=True)
     quantity=models.IntegerField(default=1)
     owner=models.ForeignKey(Order,on_delete=models.CASCADE,related_name='added_items')
