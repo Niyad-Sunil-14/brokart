@@ -3,3 +3,4 @@ brokart/customers/migrations
 brokart/orders/migrations
 brokart/products/migrations
 brokart/themes/migrations
+brokart/templates/*blank_layout.html
