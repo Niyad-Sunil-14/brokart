@@ -5,7 +5,8 @@ brokart/products/migrations
 brokart/themes/migrations
 brokart/brokart/__pycache__
 brokart/customers/__pycache__
-brokart/media/__pycache__
 brokart/orders/__pycache__
 brokart/products/__pycache__
+brokart/themes/__pycache__
+
 
