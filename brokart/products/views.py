@@ -10,7 +10,6 @@ def index(request):
         'featured_product':featured_product,
         'latest_product':latest_product
     }
-    print(context)
     return render(request,'index.html',context)
 
 def list_products(request):
