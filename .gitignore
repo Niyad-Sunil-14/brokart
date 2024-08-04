@@ -8,5 +8,7 @@ brokart/customers/__pycache__
 brokart/orders/__pycache__
 brokart/products/__pycache__
 brokart/themes/__pycache__
+brokart/orders/templatetags/__pycache__
+brokart/products/templatetags/__pycache__
 
 
